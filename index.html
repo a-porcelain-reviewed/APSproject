@@ -37,8 +37,8 @@ body, html {
   height: 100%;
 }
 
-#Why did I choose these topics {background-color: tomato;}
-#What makes us human {background-color: tomato;}
+#Topic{background-color: tomato;}
+#Human{background-color: tomato;}
 #Pictures {background-color: tomato;}
 #About {background-color: tomato;}
 
@@ -66,15 +66,15 @@ body, html {
 
 <button class="tablink" onclick="openPage('About', this, 'tomato')">About</button>
 <button class="tablink" onclick="openPage('Pictures', this, 'tomato')" id="defaultOpen">Pictures</button>
-<button class="tablink" onclick="openPage('What makes us Human', this, 'tomato')">What makes us Human</button>
-<button class="tablink" onclick="openPage('Why did I choose these topics', this, 'tomato')">Why did I choose these topics?</button>
+<button class="tablink" onclick="openPage('Human', this, 'tomato')">What makes us Human</button>
+<button class="tablink" onclick="openPage('Topic', this, 'tomato')">Why did I choose these topics?</button>
 
 <div id="About" class="tabcontent">
   <h3>Home</h3>
   <p>Home is where the heart is..</p>
 </div>
 
-<div id="Why did I choose these topics" class="tabcontent">
+<div id="Topic" class="tabcontent">
   <h3>About</h3>
   <p>Who we are and what we do.</p>
 </div>
@@ -87,7 +87,7 @@ body, html {
   
   
 
-<div id="What makes us Human" class="tabcontent">
+<div id="Human" class="tabcontent">
   	<style>
 	body {
 	  font-family: "Lato", sans-serif;
@@ -165,13 +165,13 @@ body, html {
   function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
     document.getElementById("main").style.marginLeft = "250px";
-    document.What makes us Human.style.backgroundColor = "rgba(0,0,0,0.4)";
+    document.Human.style.backgroundColor = "rgba(0,0,0,0.4)";
   }
 
   function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("main").style.marginLeft= "0";
-    document.What makes us Human.style.backgroundColor = "tomato";
+    document.Human.style.backgroundColor = "tomato";
   }
 </script>
 </div>
